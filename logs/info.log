@@ -1,0 +1,32 @@
+2020-12-17 10:02:26.077 INFO  [main]com.xxl.job.admin.XxlJobAdminApplication -Starting XxlJobAdminApplication using Java 1.8.0_111 on MS-HLIRZZIJCSKF with PID 14568 (F:\CloudWise\IdeaProjects\learn\xxl-job-tar\xxl-job-admin\target\classes started by Administrator in F:\CloudWise\IdeaProjects\learn\xxl-job-tar)
+2020-12-17 10:02:26.080 INFO  [main]com.xxl.job.admin.XxlJobAdminApplication -No active profile set, falling back to default profiles: default
+2020-12-17 10:02:27.301 INFO  [main]org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2020-12-17 10:02:27.308 INFO  [main]org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-17 10:02:27.309 INFO  [main]org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-12-17 10:02:27.309 INFO  [main]org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-17 10:02:27.390 INFO  [main]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xxl-job-admin] -Initializing Spring embedded WebApplicationContext
+2020-12-17 10:02:27.390 INFO  [main]org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1144 ms
+2020-12-17 10:02:27.887 INFO  [main]com.xxl.job.admin.core.scheduler.XxlJobScheduler ->>>>>>>>> init xxl-job admin success.
+2020-12-17 10:02:27.901 INFO  [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread]com.zaxxer.hikari.HikariDataSource -HikariCP - Starting...
+2020-12-17 10:02:27.993 INFO  [main]org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-17 10:02:28.072 INFO  [main]org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping -Adding welcome page template: index
+2020-12-17 10:02:28.105 INFO  [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread]com.zaxxer.hikari.HikariDataSource -HikariCP - Start completed.
+2020-12-17 10:02:28.412 INFO  [main]org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver -Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-17 10:02:28.438 INFO  [main]org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+2020-12-17 10:02:28.454 INFO  [main]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xxl-job-admin] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-17 10:02:28.454 INFO  [main]org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2020-12-17 10:02:28.455 INFO  [main]org.springframework.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2020-12-17 10:02:28.456 INFO  [main]org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/xxl-job-admin'
+2020-12-17 10:02:28.469 INFO  [main]com.xxl.job.admin.XxlJobAdminApplication -Started XxlJobAdminApplication in 2.821 seconds (JVM running for 5.785)
+2020-12-17 10:02:32.000 INFO  [xxl-job, admin JobScheduleHelper#scheduleThread]com.xxl.job.admin.core.thread.JobScheduleHelper ->>>>>>>>> init xxl-job admin scheduler success.
+2020-12-17 10:02:40.716 INFO  [SpringContextShutdownHook]org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-17 10:02:41.717 INFO  [xxl-job, admin JobScheduleHelper#scheduleThread]com.xxl.job.admin.core.thread.JobScheduleHelper ->>>>>>>>>>> xxl-job, JobScheduleHelper#scheduleThread stop
+2020-12-17 10:02:42.001 INFO  [xxl-job, admin JobScheduleHelper#ringThread]com.xxl.job.admin.core.thread.JobScheduleHelper ->>>>>>>>>>> xxl-job, JobScheduleHelper#ringThread stop
+2020-12-17 10:02:42.727 INFO  [SpringContextShutdownHook]com.xxl.job.admin.core.thread.JobScheduleHelper ->>>>>>>>>>> xxl-job, JobScheduleHelper stop
+2020-12-17 10:02:42.728 INFO  [xxl-job, admin JobLogReportHelper]com.xxl.job.admin.core.thread.JobLogReportHelper ->>>>>>>>>>> xxl-job, job log report thread stop
+2020-12-17 10:02:42.729 INFO  [xxl-job, admin JobLosedMonitorHelper]com.xxl.job.admin.core.thread.JobCompleteHelper ->>>>>>>>>>> xxl-job, JobLosedMonitorHelper stop
+2020-12-17 10:02:42.730 INFO  [xxl-job, admin JobFailMonitorHelper]com.xxl.job.admin.core.thread.JobFailMonitorHelper ->>>>>>>>>>> xxl-job, job fail monitor thread stop
+2020-12-17 10:02:42.731 INFO  [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread]com.xxl.job.admin.core.thread.JobRegistryHelper ->>>>>>>>>>> xxl-job, job registry monitor thread stop
+2020-12-17 10:02:42.732 INFO  [SpringContextShutdownHook]com.xxl.job.admin.core.thread.JobTriggerPoolHelper ->>>>>>>>> xxl-job trigger thread pool shutdown success.
+2020-12-17 10:02:42.736 INFO  [SpringContextShutdownHook]com.zaxxer.hikari.HikariDataSource -HikariCP - Shutdown initiated...
+2020-12-17 10:02:42.752 INFO  [SpringContextShutdownHook]com.zaxxer.hikari.HikariDataSource -HikariCP - Shutdown completed.
